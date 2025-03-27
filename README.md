@@ -33,7 +33,7 @@ pip install ultralytics opencv-python numpy torch torchvision torchaudio
 
 ### 2️⃣ Download YOLO11 Model
 
-Download the **YOLO11 weights** file (`yolo11l.pt`) from [this link](https://github.com/ultralytics/yolov5/releases) and place it in the project directory.
+Download the **YOLO11 weights** file (`yolo11l.pt`) from [this link](https://docs.ultralytics.com/models/yolo11/#performance-metrics) , here in this link scroll down till you reach the  "🔥Performance" section and click on YOLO11l model to download the weights. Once downloaded, place it in the project directory.
 
 
 
