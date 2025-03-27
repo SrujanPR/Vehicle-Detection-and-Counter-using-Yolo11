@@ -80,6 +80,14 @@ python main.py
 
 Feel free to fork the repository, improve the project, and create a pull request!
 
+## 📜 License
+
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
+## 📷 Preview
+
+![alt text](Output_Sample_image.png)
+
 ## 📧 Contact
 
 For any queries, reach out to me at **sruja2401@gmail.com**.
