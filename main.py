@@ -14,7 +14,7 @@ cap = cv2.VideoCapture('./test videos/test video_1.mp4')
 # Get Video Properties
 frame_width = int(cap.get(3))  # Width
 frame_height = int(cap.get(4))  # Height
-fps = int(cap.get(cv2.CAP_PROP_FPS))  # FPS
+fps = int(cap.get(cv2.CAP_PROP_FPS))
 
 # Define VideoWriter to Save the Output Video
 output_path = 'output_video.mp4'
