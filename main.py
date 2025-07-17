@@ -87,5 +87,3 @@ out.release()
 cv2.destroyAllWindows()
 
 print(f"Processed video saved as {output_path}")
-
-#python.exe -m pip install --upgrade pip
