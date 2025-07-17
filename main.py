@@ -83,7 +83,7 @@ while cap.isOpened():
 
 # Release Resources
 cap.release()
-out.release()  # Save the Video
+out.release()
 cv2.destroyAllWindows()
 
 print(f"Processed video saved as {output_path}")
