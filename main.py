@@ -73,8 +73,6 @@ while cap.isOpened():
 
     # Write Frame to Output Video
     out.write(frame)
-
-    # Show Frame (Optional)
     cv2.imshow("YOLO Object Tracking and Counting", frame)
 
     # Press 'Q' to Exit
