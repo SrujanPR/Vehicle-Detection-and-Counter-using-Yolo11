@@ -29,7 +29,6 @@ class_counts = defaultdict(int)
 
 # Set to Keep Track of IDs that Crossed the Line
 crossed_ids = set()
-
 while cap.isOpened():
     ret, frame = cap.read()
     if not ret:
@@ -83,5 +82,4 @@ while cap.isOpened():
 cap.release()
 out.release()
 cv2.destroyAllWindows()
-
 print(f"Processed video saved as {output_path}")
