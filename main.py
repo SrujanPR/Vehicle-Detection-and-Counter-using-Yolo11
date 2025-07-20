@@ -4,7 +4,6 @@ import cv2
 from ultralytics import YOLO
 from collections import defaultdict
 
-# Load YOLO Model
 model = YOLO('yolo11l.pt')
 class_list = model.names
 
