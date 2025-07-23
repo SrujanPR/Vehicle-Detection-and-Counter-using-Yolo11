@@ -6,8 +6,6 @@ from collections import defaultdict
 
 model = YOLO('yolo11l.pt')
 class_list = model.names
-
-# Open Video File
 cap = cv2.VideoCapture('./test videos/test video_1.mp4')
 
 # Get Video Properties
